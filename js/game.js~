@@ -167,7 +167,7 @@ var update = function (modifier) {
 			}	
 		}
 	}
-	for(var m = 0; m<=level+1; m++){
+	for(var m = 0; m<=level; m++){
 		if(hero.x <= (monstruosx[m] + 16)
 		&& monstruosx[m] <= (hero.x + 16)
 		&& hero.y <= (monstruosy[m] + 16)
